@@ -2,7 +2,7 @@
 ## Using a Creative GAN to generate new music
 As the final project of the Course "Implementing Artificial Neural Networks with Tensorflow" at the University of Osnabrueck we implemented a Creative Adversarial Network (CAN) to generate new music. Due to its architecture and the Genre Ambiguity loss the network can learn to generate music that diverges from the training data. Meaning, it generates music that cannot directly be traced back to a specific music genre available in the training dataset. 
 The project is based on the work of [Nao Tokui](https://arxiv.org/abs/2011.13062#:~:text=%2D%2D%20Generating%20novel%20rhythm%20patterns%20using%20GAN%20with%20Genre%20Ambiguity%20Loss,-Nao%20Tokui&text=The%20paper%20shows%20that%20our,genres%20in%20the%20training%20dataset) who used a Creative Adversarial Network to generate new electronic rhythm patterns [[1]](#1). We trained our model with pop, jazz and classical music in MIDI format. Nonetheless, it is also possible to use other music genres as training data. \
-For further information, please refer to our [paper]("To_CAN_or_to_CAN__Music_Generation__Creative_GAN.pdf").
+For further information, please refer to our [paper](To_CAN_or_to_CAN__Music_Generation__Creative_GAN.pdf).
 <p align="center">
   <img src="CAN.png" alt="Sublime's custom image" width = 500 height=320/>
 </p>

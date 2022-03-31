@@ -4,7 +4,7 @@ As the final project of the Course "Implementing Artificial Neural Networks with
 The project is based on the work of [Nao Tokui](https://arxiv.org/abs/2011.13062#:~:text=%2D%2D%20Generating%20novel%20rhythm%20patterns%20using%20GAN%20with%20Genre%20Ambiguity%20Loss,-Nao%20Tokui&text=The%20paper%20shows%20that%20our,genres%20in%20the%20training%20dataset) who used a Creative Adversarial Network to generate new electronic rhythm patterns [[1]](#1). We trained our model with pop, jazz and classical music in MIDI format. Nonetheless, it is also possible to use other music genres as training data. \
 For further information, please refer to our [paper]().
 <p align="center">
-  <img src="CAN.png" alt="Sublime's custom image" width = 640 height=380/>
+  <img src="CAN.png" alt="Sublime's custom image" width = 600 height=350/>
 </p>
 
 ## Listen to a generated sample...

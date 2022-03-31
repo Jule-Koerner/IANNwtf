@@ -1,4 +1,5 @@
-# iannwtf-group21-project
+# To CAN or not to CAN? 
+## Using a Creative GAN to generate new music
 As the final project of the Course "Implementing Artificial Neural Networks with Tensorflow" at the University of Osnabrueck we implemented a Creative Adversarial Network (CAN) to generate new music. Due to its architecture and the Genre Ambiguity loss the network can learn to generate music that diverges from the training data. Meaning, it generates music that cannot directly be traced back to a specific music genre available in the training dataset. 
 The project is based on the work of [Nao Tokui](https://arxiv.org/abs/2011.13062#:~:text=%2D%2D%20Generating%20novel%20rhythm%20patterns%20using%20GAN%20with%20Genre%20Ambiguity%20Loss,-Nao%20Tokui&text=The%20paper%20shows%20that%20our,genres%20in%20the%20training%20dataset) who used a Creative Adversarial Network to generate new electronic rhythm patterns [[1]](#1). We trained our model with pop, jazz and classical music in MIDI format. Nonetheless, it is also possible to use other music genres as training data. \
 For further information, please refer to our [paper]().
@@ -7,7 +8,13 @@ For further information, please refer to our [paper]().
 </p>
 
 ## Listen to a generated sample...
-https://user-images.githubusercontent.com/64217756/160562626-822ef371-61f3-425b-9046-5d2d08f5d116.mov
+
+<p align="center">
+  <img src="33-1.png" alt="Sublime's custom image" width = 550 height=300/>
+</p>
+
+https://user-images.githubusercontent.com/64217756/161152856-25b3e1a0-2029-4979-8aaa-a31b8d23c1e1.mov
+
 
 ## Repository structure and how to use
 - `model.py` contains the GAN as well as the Discriminator and Generator class
@@ -56,6 +63,6 @@ Wang Ziyu, Ke Chen, Junyan Jiang, Yiyi Zhang, Maoran Xu, Shuqi Dai, Guxian Bin, 
 Lucas N. Ferreira, Levi H. S. Lelis, and Jim Whitehead. Computer-generated music for table top role-playing games. 2020.
 
 <a id="4">[4]</a> 
-[Bern Krueger](http://www.piano-midi.de/), [cc-by-sa Germany License](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en), splitted the songs.
+[Bern Krueger](http://www.piano-midi.de/), [cc-by-sa Germany License](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en), split the songs.
 
 

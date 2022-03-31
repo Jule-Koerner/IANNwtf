@@ -19,6 +19,7 @@ https://user-images.githubusercontent.com/64217756/160562626-822ef371-61f3-425b-
 - `GenerateSamples.ipynb` can be used to load a stored model and generate new samples from it
 
 To easily run these things in Colab there are additional "InColab" notebooks, which contain specific setup sections in the beginning of the notebooks.
+There is also the `SimpleDriveSetupForColab.ipynb`, which can be opened in Colab via the button at its top and then used to clone this repo into your drive and start notebooks for training or sample generation.
 
 
 Some parts of the training, generation of samples, and preprocessing require certain libraries and software to be installed. We provide an environment.txt file for hassle-free setup of an environment containing the necessary python libraries. However, to generate the sheet music a recent version of Musescore also needs to be installed, which can be done using the following commands.

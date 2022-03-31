@@ -10,7 +10,7 @@ For further information, please refer to our [paper]().
 ## Listen to a generated sample...
 
 <p align="center">
-  <img src="33-1.png" alt="Sublime's custom image" width = 550 height=300/>
+  <img src="33-1.png" alt="Sublime's custom image" width = 620 height=300/>
 </p>
 
 https://user-images.githubusercontent.com/64217756/161152856-25b3e1a0-2029-4979-8aaa-a31b8d23c1e1.mov
